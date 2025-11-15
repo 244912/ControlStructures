@@ -1,0 +1,8 @@
+# Check if car speed is within legal limits on Polish highways
+
+car_speed = int(input("Enter car speed: "))
+speed_limit_min = 40
+speed_limit_max = 140
+
+if car_speed < speed_limit_min or car_speed > speed_limit_max:
+    print("Warning: invalid car speed!!")
